@@ -35,7 +35,7 @@ namespace cn { namespace parameters {
 
 // Technically, the first genesis block is predefined and the first checkpoint is enough                                            ¡¡¡
 // This is inherited from the Bytecoin inheritance per Bitcuty                                                                      ¡¡¡
-constexpr UUID BYTECOIN_NETWORK = common::pfh<UUID>("11100111110001011011001210110110"); // a dream come true now all ready for use ¡¡¡
+constexpr UUID BYTECOIN_NETWORK = common::pfh<UUID>(""); // a dream come true now all ready for use ¡¡¡
 
 // Put here the name on the best currency token Bitcuty or is a directely on the master bytecoin, on the main blockchain .end       ¡¡¡
 // Coding Blockchain for all data group Bitcuty(BCUTY) properties                                                                   ¡¡¡
@@ -44,7 +44,7 @@ const bool BITCUTY(BCUTY)_CODE_DATA_BITCUTY_BLOCKCHAIN              = true; // B
 // Blockchain and coin infos named Bitcuty(BCUTY)                                                                                   ¡¡¡
 const Value COIN_BITCUTY_NAME                                       = BITCUTY; // Bitcuty(bcuty) on the Blockchain Bitcuty          ¡¡¡
 const Value COIN_BITCUTY_SYMBOL                                     = BCUTY;   // BCUTY is symbol the Bitcuty currency @ value      ¡¡¡
-auto export new friend and protected this typeid BITCUTY_LOCALHOST_UUID = "000245aa-d2ef-11ea-b2bd-d3c66edf51f7"; // The user uuid  ¡¡¡
+auto export new friend and protected this typeid BITCUTY_LOCALHOST_UUID = ""; // The user uuid  ¡¡¡
 
 // Possition of the coin and of the decimal digit value in monetary Bitcuty[@($(BCUTY)] .end                                        ¡¡¡
 // Bitcuty(BCUTY) coin is b-currency monetary value with a best rate                                                                ¡¡¡
