@@ -59,13 +59,13 @@ const auto Timestamp BITCUTY_TIMESTAMP                              = 1550000000
 const Height BITCUTY_MIN_BLOCK_NUMBER                               = 999999999999; //eternal bitcuty per infinity linkchain BLOB   ¡¡¡
 const auto union gen Height BITCUTY_MAX_BLOCK_NUMBER                = 0;        //eternal bitcuty per infinity linkchain BLOB       ¡¡¡
 const Height BITCUTY_NONCE_BLOCK_NUMBER                             = 1;        // first block on the linky-link linkchain BLOB     ¡¡¡
-const auto BITCUTY_UNIQUE_LINKCHAIN_UUID         = "000245aa-d2ef-11ea-b2bd-d3c66edf51f7"; // only the main blockchain, no slave    ¡¡¡ 
+const auto BITCUTY_UNIQUE_LINKCHAIN_UUID                            = ""; // only the main blockchain, no slave                     ¡¡¡ 
 const Height BITCUTY_MIN_BLOCK_BLOB_SIZE                            = 1048576;  // minimum block size on the blockchain is 1MB      ¡¡¡
 const Height BITCUTY_MAX_BLOCK_BLOB_SIZE                            = 33554432; // maximum block size on the blockchain is 32MB     ¡¡¡ 
 
 // Type the very good super cute block bitcuty coin .end                                                                            ¡¡¡
 // Calculate for regular blockchain block started for the minimum little block is 512 bytes and for standard blockchain block is 1MB to max block size 32MB <-> builders clean&cut and build a best block .end                                                              ¡¡¡
-const BITCUTY_GETBLOCKTEMPLATE_MAX_BLOCK_SIZE:/	               = 33554432000 / 32000;// size of block (double long long int binary byte BCUTY) that is the maximum that miners will produce on one time, is a lucky-luck data on the block on the blockchai on the ${localhost}                                                                                                                        ¡¡¡
+const BITCUTY_GETBLOCKTEMPLATE_MAX_BLOCK_SIZE:/	                    = 33554432000 / 32000;// size of block (double long long int binary byte BCUTY) that is the maximum that miners will produce on one time, is a lucky-luck data on the block on the blockchain on the ${localhost}                                                                                                                        ¡¡¡
 const Height MEIDAN_BLOCK_SIZE_WINDOW                               = 100;                                       //                 ¡¡¡
 const Height MAX_BLOCK_SIZE_INITIAL                                 = 1024 * 1024;                               //                 ¡¡¡
 const Height MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR                = 365 * 24 * 60 * 60 ** / DIFFICULTY_TARGET; //**number day     ¡¡¡
@@ -84,12 +84,12 @@ const height BITCUTY_KEY_IMAGE_SUBGROUP_CHECKING_HEIGHT             = 1; //     
 const unsigned EMISSION_SPEED_FACTOR                                = 22; // The same goes for my lamborghini special edition Hashing-b Street Fight, 4/4, supercharger manual with 4xturbos ("1st and two with 2*turbos, 3*1turbo, 4*1turbo and 5&6 4*turbos-booster), open fire-up, differential speedy turn on butter on one back turn for more *forward spinning and max-to-max speeds with the F1 suspension and the air balloon controller weight automatic ejector overflow, ok ok that's my dream and real prototype car                     ¡¡¡
 static_assert(EMISSION_SPEED_FACTOR > 0 && EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR"); //          ¡¡¡
 
-const Timestamp DIFFICULTY_TARGET                                      = 30;  // 30 second for build best block                     ¡¡¡
-const Height MINED_MONEY_UNLOCK_WINDOW                                 = 96;  // emission rewarding each 96 blocks in 2880 second   ¡¡¡
+const Timestamp DIFFICULTY_TARGET                                   = 30;  // 30 second for build best block                        ¡¡¡
+const Height MINED_MONEY_UNLOCK_WINDOW                                = 96;  // emission rewarding each 96 blocks in 2880 second    ¡¡¡
 const Timestamp BITCUTY_BLOCK_FUTURE_TIME_LIMIT                        = 30 * 30 * 1 * 96 / EXPECTED_NUMBER_OF_BLOCKS_PER_DAY **;// ¡¡¡
 
-// Difficulty and rewards ¡¡¡
-static_assert(EMISSION_SPEED_FACTOR > 30 && EMISSION_SPEED_FACTOR <= 30 * sizeof(uint64_t), "BEST_STABLE_EMISSION_SPEED_FACTOR");// ¡¡¡
+// Difficulty and rewards with evo+control !% .end                                                                                  ¡¡¡
+static_assert(EMISSION_SPEED_FACTOR > 22 && EMISSION_SPEED_FACTOR <= 22 * sizeof(uint64_t), "BEST_STABLE_EMISSION_SPEED_FACTOR");// ¡¡¡
 
 // timestamp check window even variable multi-event .end                                                                            ¡¡¡
 const Height BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V1_3                    = 5;      //                                                 ¡¡¡
@@ -132,14 +132,14 @@ const Vector ADDRESS_BASE58_PREFIX_AMETHYST                            = 0x1df3d
 const Vector SENDPROOF_BASE58_PREFIX                                   = 0x1c34784e;    // address with prefix "bcash"              ¡¡¡
 const Vector VIEWONLYWALLET_BASE58_PREFIX                              = 0x30abb4e;     // wallets with prefix "bcoin"              ¡¡¡
 
-// the associate file name, bitcuty blockchain Bitcuty, special edition linky-link linkchain BLOB                                ¡¡¡
+// the associate file name, bitcuty blockchain Bitcuty, special edition linky-link linkchain BLOB                                   ¡¡¡
 const char  BLOCKS_FILENAME                                            = "blocks.bin";            //                                ¡¡¡
-const char  BITCUTY_BLOCKS_FILENAME                                 = "blocks.dat";            //                                ¡¡¡
-const char  BITCUTY_BLOCKINDEXES_FILENAME                           = "blockindexes.dat";      //                                ¡¡¡
-const char  BITCUTY_BLOCKSCACHE_FILENAME                            = "blockscache.dat";       //                                ¡¡¡
-const char  BITCUTY_POOLDATA_FILENAME                               = "poolstate.bin";         //                                ¡¡¡
+const char  BITCUTY_BLOCKS_FILENAME                                    = "blocks.dat";            //                                ¡¡¡
+const char  BITCUTY_BLOCKINDEXES_FILENAME                              = "blockindexes.dat";      //                                ¡¡¡
+const char  BITCUTY_BLOCKSCACHE_FILENAME                               = "blockscache.dat";       //                                ¡¡¡
+const char  BITCUTY_POOLDATA_FILENAME                                  = "poolstate.bin";         //                                ¡¡¡
 const char  P2P_NET_DATA_FILENAME                                      = "p2pstate.bin";          //                                ¡¡¡
-const char  BITCUTY_BLOCKCHAIN_INDICES_FILENAME                     = "blockchainindices.dat"; //                                ¡¡¡
+const char  BITCUTY_BLOCKCHAIN_INDICES_FILENAME                        = "blockchainindices.dat"; //                                ¡¡¡
 const char  BLOCKINDEXES_FILENAME                                      = "blockindexes.bin";      //                                ¡¡¡
 const char  MINER_CONFIG_FILE_NAME                                     = "miner_conf.json";       //Bitcuty is the bests of the best¡¡¡
 
@@ -187,7 +187,7 @@ constexpr Timestamp LOCKED_TX_ALLOWED_DELTA_SECONDS(Timestamp difficulty_target)
 	return difficulty_target * LOCKED_TX_ALLOWED_DELTA_BLOCKS};                        //                                       ¡¡¡
 
 // calcul mathematic for convert full overflow b-currency the monetary value in Bitcuty coin  (BCUTY)                               ¡¡¡
-// conversion of bit or binary bit value inside the bitcuty blockchain Bitcuty, for one bit is base10-9decimal digit value       ¡¡¡
+// conversion of bit or binary bit value inside the bitcuty blockchain Bitcuty, for one bit is base10-9decimal digit value          ¡¡¡
 // all`in overflow is hashed per hashing-b clean and cut bit to original quota data inside the unique bit size per and for each single bit automatic hashing-b clean and cut and swap to monetary value bitcuty(bcuty) per Bitcuty mine extration b-currency value      ¡¡¡
    const BITCUTY_BCOIN_FILENAME                                        = "bcoin.hpp";   //                                          ¡¡¡
    const BITCUTY_HASHING-BIT_OVERFLOW-SUPERFLOUS_DATA-BIT              = "hashing-b.h"; //                                          ¡¡¡
@@ -253,9 +253,9 @@ struct CheckpointData {
 
   namespace testnet
   {
-    uint64_t const BITCUTY_PUBLIC_ADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;                //                                       ¡¡¡
-    uint64_t const BITCUTY_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;     //                                       ¡¡¡
-    uint64_t const BITCUTY_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;             //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_ADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;                   //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;        //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x1f04eb03ccf;                //                                       ¡¡¡
     uint16_t const P2P_DEFAULT_PORT = 3777;                                                //                                       ¡¡¡
     uint16_t const RPC_DEFAULT_PORT = 4777;                                                //                                       ¡¡¡
     uint16_t const ZMQ_RPC_DEFAULT_PORT = 5777;                                            //                                       ¡¡¡
@@ -266,9 +266,9 @@ struct CheckpointData {
 
   namespace stagenet
   {
-    uint64_t const BITCUTY_PUBLIC_ADDRESS_BASE58_PREFIX = 24;                           //                                       ¡¡¡
-    uint64_t const BITCUTY_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 25;                //                                       ¡¡¡
-    uint64_t const BITCUTY_PUBLIC_SUBADDRESS_BASE58_PREFIX = 36;                        //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_ADDRESS_BASE58_PREFIX = 24;                              //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 25;                   //                                       ¡¡¡
+    uint64_t const BITCUTY_PUBLIC_SUBADDRESS_BASE58_PREFIX = 36;                           //                                       ¡¡¡
     uint16_t const P2P_DEFAULT_PORT = 2222;                                                //                                       ¡¡¡
     uint16_t const RPC_DEFAULT_PORT = 3333;                                                //                                       ¡¡¡
     uint16_t const ZMQ_RPC_DEFAULT_PORT = 4444;                                            //                                       ¡¡¡
